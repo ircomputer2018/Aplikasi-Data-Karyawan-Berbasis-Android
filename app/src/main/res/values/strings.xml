@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">Data Karyawan</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profil</string>
+
+
+    <string name="email_id">email id</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+
+    <string name="image">image</string>
+
+
+    <string name="title_save">Simpan</string>
+
+    <string name="akun_baru">Buat akun baru!!</string>
+
+
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+
+
+</resources>

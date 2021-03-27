@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#278be3</color>
+    <color name="colorPrimaryDark">#0f5998</color>
+    <color name="colorAccent">#4075a2</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+
+
+    <color name="biru">#40739E</color>
+    <color name="orange">#F7B148</color>
+    <color name="hijau">#9CD855</color>
+    <color name="ungu">#E65385</color>
+    <color name="biru_tua">#00BCD4</color>
+    <color name="ungu_muda">#E91E63</color>
+
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+
+
+</resources>

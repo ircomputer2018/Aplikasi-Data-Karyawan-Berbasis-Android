@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="5dip">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|top"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="80dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:contentDescription="TODO"
+        android:src="@drawable/userpersonal" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/nama"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toEndOf="@id/icon"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/jabatan"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:text="Description"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="26dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/icon"
+        android:layout_marginTop="36dp"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="email"
+        android:textSize="12sp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

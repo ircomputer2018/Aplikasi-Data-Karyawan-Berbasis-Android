@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dip">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12pt"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/profil"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="Profil Saya"
+                                    android:textColor="@color/biru"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/profil"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_biru_tua"
+                                    android:drawableTop="@drawable/personal"
+                                    android:indeterminate="false"
+                                    android:padding="20dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/karyawan"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="Data Karyawan"
+                                    android:textColor="@color/orange"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/karyawan"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:background="@drawable/lingkaran_orange2"
+                                    android:drawableTop="@drawable/ic_group_light"
+                                    android:indeterminate="false"
+                                    android:padding="20dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="12pt"
+                    android:orientation="horizontal"
+                    android:paddingBottom="9dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/pekerjaan"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="Data Pekerjaan"
+                                    android:textColor="@color/hijau"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/pekerjaan"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:background="@drawable/lingkaran_hijau"
+                                    android:drawableTop="@drawable/ic_card_travel_black_24dp"
+                                    android:indeterminate="false"
+                                    android:padding="20dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/tunjangan"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="Data Tunjangan"
+                                    android:textColor="@color/ungu"
+                                    android:textSize="10sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:id="@+id/tunjangan"
+                                    style="?android:attr/progressBarStyleHorizontal"
+                                    android:layout_width="75dp"
+                                    android:layout_height="75dp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="12dp"
+                                    android:background="@drawable/lingkaran_ungu_muda"
+                                    android:drawableTop="@drawable/ic_add_box_black_24dp"
+                                    android:indeterminate="false"
+                                    android:padding="20dp"
+                                    android:textStyle="bold" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

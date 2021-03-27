@@ -1,0 +1,43 @@
+<html>
+
+<table style="height: 241px; width: 507px; border-color: black; float: left;" border="black">
+    <tbody>
+    <tr>
+        <td style="width: 74px;">No.</td>
+        <td style="width: 74px;">Nip</td>
+        <td style="width: 89px;">Nama Karyawan</td>
+        <td style="width: 81px;">Jabatan</td>
+        <td style="width: 80px;">Email</td>
+    </tr>
+    <tr>
+        <td style="width: 74px;">1.</td>
+        <td style="width: 74px;">0001</td>
+        <td style="width: 89px;">Harris Ismail</td>
+        <td style="width: 81px;">Sales</td>
+        <td style="width: 80px;">harris54@yahoo.co.id</td>
+    </tr>
+    <tr>
+        <td style="width: 74px;">2.</td>
+        <td style="width: 74px;">0002</td>
+        <td style="width: 89px;">Abdul Muis</td>
+        <td style="width: 81px;">IT Support</td>
+        <td style="width: 80px;">muis70@gmail.com</td>
+    </tr>
+    <tr>
+        <td style="width: 74px;">3.</td>
+        <td style="width: 74px;">0003</td>
+        <td style="width: 89px;">Januar Firza</td>
+        <td style="width: 81px;">IT Field</td>
+        <td style="width: 80px;">firza@gmail.com</td>
+    </tr>
+    <tr>
+        <td style="width: 74px;">4.</td>
+        <td style="width: 74px;">0004</td>
+        <td style="width: 89px;">Nur Afni</td>
+        <td style="width: 81px;">Business Development</td>
+        <td style="width: 80px;">afni56@gmail.com</td>
+    </tr>
+    </tbody>
+</table>
+
+</html>
