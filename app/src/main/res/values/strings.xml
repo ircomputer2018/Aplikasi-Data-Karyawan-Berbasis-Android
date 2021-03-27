@@ -17,6 +17,8 @@
 
     <string name="akun_baru">Buat akun baru!!</string>
 
+    <string name="nama_perusahaan">Selamat Datang Di Aplikasi Data Karyawan PT. Pacific Agung Trijaya</string>
+
 
     <string name="title_activity_login">Sign in</string>
     <!-- Strings related to login -->
