@@ -14,9 +14,9 @@
         android:title="Profil Perusahaan" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_arsip"
         android:icon="@drawable/ic_folder_black_24dp"
-        android:title="Buka Arsip Pdf" />
+        android:title="Arsip" />
 
     <item
         android:id="@+id/navigation_profile"

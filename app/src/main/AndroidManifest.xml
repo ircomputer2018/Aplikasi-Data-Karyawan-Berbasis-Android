@@ -20,18 +20,12 @@
         android:theme="@style/AppTheme">
         <activity android:name=".DirektoriKaryawan"/>
         <activity android:name=".DataTunjangan" />
-        <activity android:name=".ViewPDFActivity" />
-        <activity android:name=".TemplatePDF" />
+
         <activity android:name=".DataGaji" />
         <activity android:name=".EditGaji" />
         <activity android:name=".DataPekerjaan" />
         <activity android:name=".EditPekerjaan" />
-        <activity android:name=".PdfViewer" />
-        <activity android:name=".Pdf_sampleFragment" />
-        <activity android:name=".TabFragment3" />
-        <activity android:name=".TabFragment2" />
-        <activity android:name=".TabFragment1" />
-        <activity android:name=".BukaArsipPDF" />
+
         <activity android:name=".ProfilSaya" />
         <activity android:name=".PajakBpjs" />
         <activity android:name=".TambahAkunDanDatabase" />

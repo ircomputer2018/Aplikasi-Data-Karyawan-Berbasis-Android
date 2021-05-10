@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 fragment = new PerusahaanFragment();
                 break;
 
-            case R.id.navigation_notifications:
+            case R.id.navigation_arsip:
                 fragment = new DirektoriFragment();
                 break;
 
