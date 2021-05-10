@@ -96,7 +96,7 @@ public class LoginActivity extends AppCompatActivity {
                                     finish();
 
                                 } else {
-                                    Log.d(TAG, "singInWithEmail:Fail");
+                                    Log.d(TAG, "signInWithEmail:Fail");
                                     Toast.makeText(LoginActivity.this, "autentikasi gagal", Toast.LENGTH_LONG).show();
                                 }
                             }
